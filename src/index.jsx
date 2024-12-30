@@ -1,9 +1,10 @@
-import "../global.css";
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+import React from "react";
 
-createRoot(document.getElementById("app")).render(
-  <StrictMode>
-    <div>Hello World</div>
-  </StrictMode>,
-);
+export const DashboardCrm = () => {
+  return (
+    <div className="dashboard-CRM">
+      <h1>Dashboard CRM</h1>
+      <p>Welcome to the Dashboard!</p>
+    </div>
+  );
+};
