@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:600,500,400,700");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+/* Your other CSS styles follow... */
+
+
+
+
 .dashboard-CRM {
   background-color: #1e1e1e;
   display: flex;
