@@ -1,10 +1,5 @@
-import "../global.css";
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import { DashboardCrm } from "./screens/DashboardCrm/DashboardCrm.jsx";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { DashboardCrm } from './screens/DashboardCrm/DashboardCrm';
 
-createRoot(document.getElementById("app")).render(
-  <StrictMode>
-    <DashboardCrm />
-  </StrictMode>,
-);
+ReactDOM.render(<DashboardCrm />, document.getElementById('app'));
